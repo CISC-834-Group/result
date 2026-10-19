@@ -1,0 +1,20 @@
+{
+  "ai_content_scanned": 53330,
+  "ai_content_flagged_before_exclusions": 11470,
+  "ai_final_candidates": 9603,
+  "breakdown": {
+    "style": 339,
+    "tier:none": 339,
+    "content": 9196,
+    "tier:direct_trailer": 233,
+    "attribution_pattern": 16,
+    "tier:propagated['direct_trailer']": 9031,
+    "both": 68
+  },
+  "negative_control_window": [
+    "2019-11-30",
+    "2020-11-29"
+  ],
+  "negative_control_rows": 43207,
+  "negative_control_flagged": 5485
+}

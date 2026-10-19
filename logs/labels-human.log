@@ -1,0 +1,32 @@
+SZZ has traced 10281 of the 10281 fixes dated in this window.
+Window 'human': 2021-11-30 to 2022-11-29 (fixes accepted up to 2022-11-29)
+Candidate funnel (candidates dated inside the window):
+  (fix, candidate) pairs found by SZZ:                           12965
+     rejected, candidate dated after the bug report:              2711
+     rejected, report date or candidate date unknown:                0
+     ignored, fix dated after the window end:                     5162
+  distinct candidate commits:                                     7056
+     dropped, merge / backout / automated commits:                 214
+     not buggy, every accepted fix came after the window end:     2355
+     not buggy, every pair rejected or unknown:                   1303
+  VALID bug-inducing commits (bug_inducing_human):     3184
+  accepted pairs with a negative gap (counted as 0 days):            0
+
+Bug rate per month (non-merge / backout / automated commits, author date in UTC):
+  2021-11:     15 /    143  ( 10.5%)
+  2021-12:    299 /   2547  ( 11.7%)
+  2022-01:    354 /   2617  ( 13.5%)
+  2022-02:    333 /   2646  ( 12.6%)
+  2022-03:    321 /   2801  ( 11.5%)
+  2022-04:    301 /   2529  ( 11.9%)
+  2022-05:    335 /   3059  ( 11.0%)
+  2022-06:    270 /   3034  (  8.9%)
+  2022-07:    240 /   2525  (  9.5%)
+  2022-08:    272 /   3166  (  8.6%)
+  2022-09:    202 /   2502  (  8.1%)
+  2022-10:    137 /   2686  (  5.1%)
+  2022-11:    105 /   3047  (  3.4%)
+  total:     3184 /  33302  (  9.6%)
+
+Gap from a buggy commit to its earliest accepted fix (3184 commits, diagnostic only):
+  median 35 d, 80th pct 111 d, 90th pct 170 d, 95th pct 216 d, max 359 d

@@ -1,0 +1,16 @@
+project,dataset,product,role,rows,buggy
+mozilla,original_mozilla,all,primary,98275,5149
+firefox_human,human,all,primary,28459,3184
+firefox_human_Core,human,Core,primary,17136,1856
+firefox_human_Firefox,human,Firefox,primary,3284,511
+firefox_human_Toolkit,human,Toolkit,primary,1706,168
+firefox_human_DevTools,human,DevTools,primary,1357,137
+firefox_human_Firefox_Build_System,human,Firefox Build System,primary,1291,134
+firefox_ai,ai,all,primary,9603,845
+firefox_ai_Core,ai,Core,primary,5383,501
+firefox_ai_Firefox_Build_System,ai,Firefox Build System,primary,711,39
+firefox_ai_Firefox,ai,Firefox,primary,663,72
+firefox_ai_Firefox_for_Android,ai,Firefox for Android,primary,589,90
+firefox_ai_Developer_Infrastructure,ai,Developer Infrastructure,primary,580,29
+firefox_ai_Toolkit,ai,Toolkit,supplemental_matched,214,16
+firefox_ai_DevTools,ai,DevTools,supplemental_matched,253,18

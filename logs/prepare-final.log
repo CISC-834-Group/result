@@ -1,0 +1,123 @@
+[
+  {
+    "project": "mozilla",
+    "dataset": "original_mozilla",
+    "product": "all",
+    "role": "primary",
+    "rows": 98275,
+    "buggy": 5149
+  },
+  {
+    "project": "firefox_human",
+    "dataset": "human",
+    "product": "all",
+    "role": "primary",
+    "rows": 28459,
+    "buggy": 3184
+  },
+  {
+    "project": "firefox_human_Core",
+    "dataset": "human",
+    "product": "Core",
+    "role": "primary",
+    "rows": 17136,
+    "buggy": 1856
+  },
+  {
+    "project": "firefox_human_Firefox",
+    "dataset": "human",
+    "product": "Firefox",
+    "role": "primary",
+    "rows": 3284,
+    "buggy": 511
+  },
+  {
+    "project": "firefox_human_Toolkit",
+    "dataset": "human",
+    "product": "Toolkit",
+    "role": "primary",
+    "rows": 1706,
+    "buggy": 168
+  },
+  {
+    "project": "firefox_human_DevTools",
+    "dataset": "human",
+    "product": "DevTools",
+    "role": "primary",
+    "rows": 1357,
+    "buggy": 137
+  },
+  {
+    "project": "firefox_human_Firefox_Build_System",
+    "dataset": "human",
+    "product": "Firefox Build System",
+    "role": "primary",
+    "rows": 1291,
+    "buggy": 134
+  },
+  {
+    "project": "firefox_ai",
+    "dataset": "ai",
+    "product": "all",
+    "role": "primary",
+    "rows": 9603,
+    "buggy": 845
+  },
+  {
+    "project": "firefox_ai_Core",
+    "dataset": "ai",
+    "product": "Core",
+    "role": "primary",
+    "rows": 5383,
+    "buggy": 501
+  },
+  {
+    "project": "firefox_ai_Firefox_Build_System",
+    "dataset": "ai",
+    "product": "Firefox Build System",
+    "role": "primary",
+    "rows": 711,
+    "buggy": 39
+  },
+  {
+    "project": "firefox_ai_Firefox",
+    "dataset": "ai",
+    "product": "Firefox",
+    "role": "primary",
+    "rows": 663,
+    "buggy": 72
+  },
+  {
+    "project": "firefox_ai_Firefox_for_Android",
+    "dataset": "ai",
+    "product": "Firefox for Android",
+    "role": "primary",
+    "rows": 589,
+    "buggy": 90
+  },
+  {
+    "project": "firefox_ai_Developer_Infrastructure",
+    "dataset": "ai",
+    "product": "Developer Infrastructure",
+    "role": "primary",
+    "rows": 580,
+    "buggy": 29
+  },
+  {
+    "project": "firefox_ai_Toolkit",
+    "dataset": "ai",
+    "product": "Toolkit",
+    "role": "supplemental_matched",
+    "rows": 214,
+    "buggy": 16
+  },
+  {
+    "project": "firefox_ai_DevTools",
+    "dataset": "ai",
+    "product": "DevTools",
+    "role": "supplemental_matched",
+    "rows": 253,
+    "buggy": 18
+  }
+]
+VERIFIED: complete LT, finite features, unique commits, and accepted positive labels.

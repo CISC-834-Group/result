@@ -1,0 +1,28 @@
+rows 38062, parent-file pairs 308334
+Reusing complete verified path resolution
+unique blobs 191122, uncached 87122
+fetch 4000/9172 objects
+fetch 8000/9172 objects
+fetch 9172/9172 objects
+line counts 12000/87122
+fetch 4000/7066 objects
+fetch 7066/7066 objects
+line counts 24000/87122
+fetch 4000/7226 objects
+fetch 7226/7226 objects
+line counts 36000/87122
+fetch 4000/7169 objects
+fetch 7169/7169 objects
+line counts 48000/87122
+fetch 4000/7207 objects
+fetch 7207/7207 objects
+line counts 60000/87122
+fetch 4000/7218 objects
+fetch 7218/7218 objects
+line counts 72000/87122
+fetch 4000/7202 objects
+fetch 7202/7202 objects
+line counts 84000/87122
+fetch 1832/1832 objects
+line counts 87122/87122
+COMPLETE: all referenced existing blobs verified

@@ -1,0 +1,20 @@
+
+Filtering funnel for commits dated 2021-11-29 to 2022-11-30
+  commits in range:                                   49216
+     flagged merges     (excluded):                     844
+     flagged backouts   (excluded):                    2437
+     flagged automated  (excluded):                   12396
+  candidates (none of the three flags):               33542
+  ... with a bug number on the first line:            28635
+     no bug number (excluded, cannot be confirmed):    4907
+        of which the message has a fix keyword:         280   (possible missed fixes)
+  ... whose bug Bugzilla returned:                    28597
+     bug not found / private (excluded):                 38
+     by bug type: [('task', 11720), ('defect', 10745), ('enhancement', 6132)]
+  ... of type 'defect':                               10745
+     by resolution: [('FIXED', 10371), ('', 116), ('DUPLICATE', 106), ('INCOMPLETE', 82), ('WORKSFORME', 44), ('WONTFIX', 20), ('INVALID', 4), ('MOVED', 2)]
+  ... resolution FIXED = FIX COMMITS:                 10371
+  distinct bugs among the fixes:                    6859
+
+Fix commits per month (author date, as stored):
+  2021-11: 76   2021-12: 734   2022-01: 830   2022-02: 905   2022-03: 840   2022-04: 812   2022-05: 920   2022-06: 754   2022-07: 756   2022-08: 918   2022-09: 839   2022-10: 912   2022-11: 1075

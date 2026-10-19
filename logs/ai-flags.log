@@ -1,0 +1,40 @@
+
+$ flag_ai_commits.py --db <workspace>/work/asuka/firefox.sqlite --since 2025-11-01 --out <workspace>/work/asuka/pipeline/ai_flags.csv
+commits scanned: 53330
+  none            41860
+  direct_trailer  247
+  propagated['direct_trailer'] 11223
+authors with a direct flag: 102
+flagged per month (flagged / total):
+  2025-11: 102/3492
+  2025-12: 129/2960
+  2026-01: 327/3459
+  2026-02: 483/4002
+  2026-03: 707/4973
+  2026-04: 998/5362
+  2026-05: 1197/5371
+  2026-06: 1538/5315
+  2026-07: 1311/5073
+  2026-08: 1448/5063
+  2026-09: 2451/6459
+  2026-10: 779/1801
+
+$ flag_ai_style.py <workspace>/work/asuka/firefox.sqlite --since 2025-11-01 --until 2026-10-10 --threshold 2 --out <workspace>/work/asuka/pipeline/ai_style_flags.csv --baseline-since 2019-11-30 --baseline-until 2020-11-29
+wrote <workspace>/work/asuka/pipeline/ai_style_flags.csv  (threshold: score >= 2)
+
+2025-11-01 to 2026-10-10: 48643 commits, flagged 407 (0.84%)
+  feature rates: em_dash 0.52%  arrow 0.12%  md_header 0.06%  md_bold 0.23%  bullets3 1.87%  long200 1.64%
+  commits by score: 0: 46666  1: 1570  2: 331  3: 65  4: 8  5+: 3
+  flagged per month: 2025-11: 15/3234  2025-12: 8/2699  2026-01: 32/3105  2026-02: 27/3640  2026-03: 37/4499  2026-04: 42/4786  2026-05: 82/4853  2026-06: 44/4860  2026-07: 45/4651  2026-08: 47/4669  2026-09: 21/5971  2026-10: 7/1676
+
+Baseline 2019-11-30 to 2020-11-29 (every flag here is a false positive): 43207 commits, flagged 47 (0.11%)
+  feature rates: em_dash 0.02%  arrow 0.00%  md_header 0.05%  md_bold 0.04%  bullets3 0.99%  long200 0.68%
+  commits by score: 0: 42485  1: 675  2: 44  3: 3  4: 0  5+: 0
+
+Upper bound on precision: (0.84% - 0.11%) / 0.84% = 87%
+
+wrote ai_flags_combined.csv: 48643 commits, AI-flagged 9603 (19.7%)
+  content     9196
+  style        339
+  both          68
+  none       39040

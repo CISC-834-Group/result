@@ -1,0 +1,32 @@
+Note: fix_commits does not cover this window (it was built for another range), so SZZ progress cannot be checked here.
+
+Window 'ai': 2025-11-01 to 2026-10-10 (fixes accepted up to 2026-10-10)
+Candidate funnel (candidates dated inside the window):
+  (fix, candidate) pairs found by SZZ:                           16076
+     rejected, candidate dated after the bug report:              6092
+     rejected, report date or candidate date unknown:                0
+     ignored, fix dated after the window end:                        0
+  distinct candidate commits:                                     9475
+     dropped, merge / backout / automated commits:                1714
+     not buggy, every accepted fix came after the window end:        0
+     not buggy, every pair rejected or unknown:                   2102
+  VALID bug-inducing commits (bug_inducing_ai):     5659
+  accepted pairs with a negative gap (counted as 0 days):            0
+
+Bug rate per month (non-merge / backout / automated commits, author date in UTC):
+  2025-11:    521 /   3234  ( 16.1%)
+  2025-12:    467 /   2699  ( 17.3%)
+  2026-01:    502 /   3105  ( 16.2%)
+  2026-02:    571 /   3640  ( 15.7%)
+  2026-03:    664 /   4499  ( 14.8%)
+  2026-04:    667 /   4786  ( 13.9%)
+  2026-05:    620 /   4853  ( 12.8%)
+  2026-06:    552 /   4860  ( 11.4%)
+  2026-07:    480 /   4651  ( 10.3%)
+  2026-08:    375 /   4669  (  8.0%)
+  2026-09:    230 /   5971  (  3.9%)
+  2026-10:     10 /   1676  (  0.6%)
+  total:     5659 /  48643  ( 11.6%)
+
+Gap from a buggy commit to its earliest accepted fix (5659 commits, diagnostic only):
+  median 37 d, 80th pct 100 d, 90th pct 148 d, 95th pct 197 d, max 334 d

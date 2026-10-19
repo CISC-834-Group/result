@@ -1,0 +1,9 @@
+{
+  "reference_fixes": 29,
+  "reference_target_pairs": 25,
+  "mismatches": [],
+  "passed": true,
+  "excluded_target_count": 0,
+  "excluded_history_commits": 748783,
+  "graph_cut_safe": true
+}

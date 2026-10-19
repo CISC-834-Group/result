@@ -1,0 +1,10 @@
+blame ignore file: none found   workers: 4
+10371 fix commits, 10342 already done, 29 to trace this run
+
+traced 29 fixes in 4s  (0.12s per fix, wall clock, 4 workers)
+
+szz_fixes by status: [('no_deleted_lines', 4965), ('ok', 24038), ('too_many_files', 28)]
+pairs (fix, candidate): 90635
+  distinct candidates:     55571
+  rejected, after report:  15225
+  days from candidate to fix (accepted pairs in the table): median 956, 80th pct 2712, 90th pct 3688, max 10169
